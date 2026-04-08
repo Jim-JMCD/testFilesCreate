@@ -1,4 +1,7 @@
 # testFilesCreate
+
+This repository is no longer actively maintained on GitHub. The current version is a Bash script maintained in Codeberg, a free community alternative to GitHub. [testFilesCreate - Bash script, Codeberg](https://codeberg.org/Jim-JMCD/testFileCreate)   
+
 #### This repository only contains X86-64 excutable.  For the ARM version go to [testFilesCreate_for_ARM_aarch64](https://github.com/Jim-JMCD/testFilesCreate_for_ARM_aarch64)
 
 
