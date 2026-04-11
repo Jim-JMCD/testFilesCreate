@@ -18,7 +18,7 @@ This repository is no longer actively maintained on GitHub. The current version 
 See __Comaparitive benchmark testing of data compression and deduplication__ section on how testFileCreate can be used as a standardised benchmark for comparing data storage reduction techniques. 
  
 _______________________________________________________________________
-testFilesCreate is a Linux portable x64 executable created from the bash script [tFile_Create](https://github.com/Jim-JMCD/Test_Files_Create) (private Github repository) using shc.
+testFilesCreate is a Linux portable x64 executable created from the bash script using __shc__ .
 
 ### Dependency
 This requires a Linux bash environment to run. Will run in Microsoft WSL2(Linux), TestFilesCreate will not run in MSYS2, Gitbash and Cygwin environmants
