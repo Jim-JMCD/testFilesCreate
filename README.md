@@ -18,12 +18,10 @@ This repository is no longer actively maintained on GitHub. The current version 
 See __Comaparitive benchmark testing of data compression and deduplication__ section on how testFileCreate can be used as a standardised benchmark for comparing data storage reduction techniques. 
  
 _______________________________________________________________________
-testFilesCreate is a Linux portable x64 executable created from the bash script using __shc__ .
+testFilesCreate is a Linux portable x64 executable created from the bash script using the __shc__ utility, more info: [Github shc](https://github.com/neurobin/shc)   
 
-### Dependency
+### Dependencies
 This requires a Linux bash environment to run. Will run in Microsoft WSL2(Linux), TestFilesCreate will not run in MSYS2, Gitbash and Cygwin environmants
-
-An executable created from the *shc* utility. More : [Github shc](https://github.com/neurobin/shc)   
 _______________________________________________________________________
 [Examples using testFileCreate to create data](https://github.com/Jim-JMCD/TestFilesCreate/blob/main/Examples%20-%20How%20to%20create%20data.md)
 
