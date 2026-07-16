@@ -165,7 +165,7 @@ Examples - Testing for duplicate files. Number of files for each test was 1 mill
 _________________________________________________________________________________________________________
 __Examples - Creating data__  
 ~~~
-testFilesCreate -P 28 -d 3 -w 5 -f 15M -n 50__
+testFilesCreate -P 28 -d 3 -w 5 -f 15M -n 50
 
     DIRECTORY TREE each directory contains 5 directories and 50 files
     The tree is 3 levels deep
@@ -179,7 +179,7 @@ testFilesCreate -P 28 -d 3 -w 5 -f 15M -n 50__
     Do you want to proceed? (y/n)
 ~~~
 ~~~
-testFilesCreate -D 5 -d 1 -f 600K -n 1000 -r -o /home/ted/test__
+testFilesCreate -D 5 -d 1 -f 600K -n 1000 -r -o /home/ted/test
 
     SINGLE DIRECTORY containing 1000 files
     Output: /home/ted/test/tfc_240930-1802-53
