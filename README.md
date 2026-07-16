@@ -141,7 +141,29 @@ Example: confirms that a complexity of 17 given by __-P 17__ contains a pool of 
     OR
     sed 's/\(.\)/\1\n/g' <file name> | sort | uniq -c | wc -l 
 _________________________________________________________________________________________________________
-EXAMPLES 
+__Duplicate files__ Duplicate files will occur when file size is very small and the pool of random characters is small.
+
+Examples - Testing for duplicate files. Number of files for each test was 1 million.
+~~~
+./testFileCreate -d 1 -w 1 -n 1000000 -f 35B -P2 -r  # creates 1 million files in a single directory each 35 byte file is
+                                                     # randomly filled with two characters (ab)
+~~~
+**Three characters** (abc) in random pool
+| File size (bytes) | Number of duplicate files |
+| :---: | :---: |
+| 20 | 146 |
+| 25 | 0 |
+| 30 | 0 |
+
+**Two characters** (ab) in random pool
+| File size (bytes) | Number of duplicate files |
+| :---: | :---: |
+| 25 | 14,6623  (1.5%) |
+| 30 | 465  (0.05%) |
+| 35 | 20 |
+| 40 | 1 |
+_________________________________________________________________________________________________________
+__Examples - Creating data__  
 ~~~
 testFilesCreate -P 28 -d 3 -w 5 -f 15M -n 50__
 
